@@ -140,8 +140,6 @@ else
     INCmtx = INCmtx.^el;
 end
 
-save tmp1
-
 MTLs = zeros(size(v1));
 for i = 1:size(v1,1)
     for j = 1:size(v2,2)
